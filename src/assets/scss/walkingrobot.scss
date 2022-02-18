@@ -1,0 +1,148 @@
+$cycle:1.8;
+$halfCycle: $cycle/2;
+$timming: ease-in-out;
+$thikness : 8vh;
+$halfThikness: $thikness/2;
+*{margin:0;padding:0;}
+body{background: #fff; height:5%;perspective:2vh;perspective-origin:10% 10%;overflow:hidden;}
+#w{
+  transform-style:preserve-3d;
+  transform-origin: 50% 100%;
+  animation: rotated 1s ;
+}
+#robot{
+	position:relative;
+	height:7vh;width:2vh;
+	margin:0 auto;	
+	animation: robot $cycle infinite $timming;
+  transform-style:preserve-3d;
+  z-index:2;
+  div{
+    position:relative;
+    transform-origin: 50% 0;
+    transform-style:preserve-3d;
+  }
+  .d3:after, .d3:before{
+    content:'';
+    width:100%; height:100%;
+    top:0;
+    background:relative;
+    position:relative;
+    transform-origin:0 0;
+    transform:translatez(-$halfThikness);
+  }
+  .d3:before{transform:translatez($halfThikness);}
+  .face{position:static;height:100%;background:relative;}
+  .face:after, .face:before{
+    content:'';
+    position:relative;
+    width:$thikness; height:100%;
+    background: relative;
+    transform:rotateY(90deg);
+  }
+  .face:before{left:-$halfThikness;}
+  .face:after{right:-$halfThikness;}
+  .r div{background:#29516D;}
+  .l div{background:#326384;}
+  .leg.r, .arm.l{animation:trans $cycle+s $halfCycle+s infinite $timming;}
+  .leg.l, .arm.r{animation:trans $cycle+s infinite $timming;}
+  .head{
+    top:10vh; left:5vh;
+    width:9vh; height:10vh;
+    margin:0 auto;
+    transform-origin:20% 150%;	
+    animation: head $cycle+s infinite $timming;
+    background:#326384;
+  }
+  #arml{
+    transform:translatez(-$thikness*1.2);
+      .face:before{width:$thikness/2;left:-$thikness/4;}
+      .face:after{width:$thikness/2;right:-$thikness/4;}
+      .d3:after{transform:translatez(-$thikness/4);}
+      .d3:before{transform:translatez($thikness/4);}
+  }
+  #armr{transform:translatez($thikness*1.2);
+      .face:before{width:$thikness/2;left:-$thikness/4;}
+      .face:after{width:$thikness/2;right:-$thikness/4;}
+      .d3:after{transform:translatez(-$thikness/4);}
+      .d3:before{transform:translatez($thikness/4);}
+  }
+  #legl{transform:translatez(-$halfThikness);
+      .face:before{width:$thikness/1.25;left:-$thikness/2.5;}
+      .face:after{width:$thikness/1.25;right:-$thikness/2.5;}
+      .d3:after{transform:translatez(-$thikness/2.5);}
+      .d3:before{transform:translatez($thikness/2.5);}
+  }
+  #legr{transform:translatez($halfThikness);
+      .face:before{width:$thikness/1.25;left:-$thikness/2.5;}
+      .face:after{width:$thikness/1.25;right:-$thikness/2.5;}
+      .d3:after{transform:translatez(-$thikness/2.5);}
+      .d3:before{transform:translatez($thikness/2.5);}
+  }
+  .arm{
+	  left:5vh; top:20.5vh;
+	  width:8vh; height:5.5vh;
+    .first, .sec{
+      top:100%; left:0;
+      width:100%; height:10vh;
+      box-sizing:border-box;
+      transform:rotate(0deg);
+      animation: arms 0s infinite $timming;
+    }
+    &.l .first, &.l .sec{animation-delay:-$halfCycle+s;}
+  }
+  .leg{
+    top:45vh;left:5vh;
+    width:8vh; height:4vh;
+    .first, .sec{
+      width:100%; height:15vh;
+      top:100%;	
+      animation: legs1 0s infinite $timming;
+      .sec{ animation: legs2 0s infinite $timming;}
+    }
+    &.r .first, &.r .sec{animation-delay:-$halfCycle+s;}
+  }
+}
+.shadow{
+  position:relative;
+  width:2vh; height:2vh;
+  margin:0 auto;
+  border-radius:50%;
+  background:#05314f;
+  animation: shadow $cycle+s infinite $timming;
+  z-index:1;
+}
+/**************************************************************************************/
+@keyframes robot {
+	0%,    50%,    100%  {transform: translateY(0vh) rotate(0.5deg);}
+	   15%,    65%      {transform: translateY(-1vh) rotate(-0.2deg);}
+}
+@keyframes trans {
+	0%, 100% {transform: translateX(0vh);}
+	50%      {transform: translateX(1.2vh);}
+}
+@keyframes head {
+	0%, 100% {transform: rotate(-1deg);}
+	25%, 75% {transform: rotate(2deg);}
+	50%      {transform: rotate(0deg);}
+}
+@keyframes arms {
+	0%, 100% {transform: rotate(2deg);}
+	50%      {transform: rotate(-10deg);}
+}
+@keyframes legs1 {
+	0%, 100% {transform: rotate(10deg);}
+	45%      {transform: rotate(-15deg);}
+}
+@keyframes legs2 {
+	0%, 100% {transform: rotate(2deg);}
+	33%      {transform: rotate(20deg);}
+	50%      {transform: rotate(0deg);}
+}
+@keyframes shadow {
+	0%,    50%,    100%  {transform: translateY(-44%) scale(1.02) rotateX(90deg);}
+	   25%,    75%      {transform: translateY(-44%) scale(0.98) rotateX(90deg);}
+}
+@keyframes rotate {
+  100% {transform:rotateY(360deg);}
+}

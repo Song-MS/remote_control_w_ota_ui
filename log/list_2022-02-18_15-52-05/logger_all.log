@@ -1,0 +1,913 @@
+[0.173s] colcon DEBUG Command line arguments: ['/usr/bin/colcon', 'list', '-n']
+[0.173s] colcon DEBUG Parsed command line arguments: Namespace(base_paths=['.'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f9ea71546a0>>, metas=['./colcon.meta'], names_only=True, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=False, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f9ea71546a0>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9ea70d1400>)
+[0.187s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) check parameters
+[0.187s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) check parameters
+[0.187s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) check parameters
+[0.187s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) check parameters
+[0.187s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) discover
+[0.187s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) discover
+[0.187s] colcon.colcon_core.package_discovery INFO Crawling recursively for packages in '/home/song/Downloads/wasp_web_front_end-main-feature-robot-software'
+[0.187s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ignore'
+[0.187s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ignore_ament_install'
+[0.187s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['colcon_pkg']
+[0.187s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'colcon_pkg'
+[0.187s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['colcon_meta']
+[0.187s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'colcon_meta'
+[0.187s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['ros']
+[0.187s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ros'
+[0.194s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['cmake', 'python']
+[0.194s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'cmake'
+[0.194s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'python'
+[0.194s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['python_setup_py']
+[0.194s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'python_setup_py'
+[0.194s] colcon.colcon_core.package_identification Level 1 _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] colcon.colcon_core.package_identification Level 1 _identify(log) by extension 'ignore'
+[0.194s] colcon.colcon_core.package_identification Level 1 _identify(log) ignored
+[0.194s] colcon.colcon_core.package_identification Level 1 _identify(public) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] colcon.colcon_core.package_identification Level 1 _identify(public) by extension 'ignore'
+[0.194s] colcon.colcon_core.package_identification Level 1 _identify(public) by extension 'ignore_ament_install'
+[0.194s] colcon.colcon_core.package_identification Level 1 _identify(public) by extensions ['colcon_pkg']
+[0.194s] colcon.colcon_core.package_identification Level 1 _identify(public) by extension 'colcon_pkg'
+[0.194s] colcon.colcon_core.package_identification Level 1 _identify(public) by extensions ['colcon_meta']
+[0.194s] colcon.colcon_core.package_identification Level 1 _identify(public) by extension 'colcon_meta'
+[0.194s] colcon.colcon_core.package_identification Level 1 _identify(public) by extensions ['ros']
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(public) by extension 'ros'
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(public) by extensions ['cmake', 'python']
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(public) by extension 'cmake'
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(public) by extension 'python'
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(public) by extensions ['python_setup_py']
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(public) by extension 'python_setup_py'
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ignore'
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ignore_ament_install'
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['colcon_pkg']
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'colcon_pkg'
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['colcon_meta']
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'colcon_meta'
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['ros']
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ros'
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['cmake', 'python']
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'cmake'
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'python'
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['python_setup_py']
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'python_setup_py'
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(src/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(src/assets) by extension 'ignore'
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(src/assets) by extension 'ignore_ament_install'
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(src/assets) by extensions ['colcon_pkg']
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(src/assets) by extension 'colcon_pkg'
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(src/assets) by extensions ['colcon_meta']
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(src/assets) by extension 'colcon_meta'
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(src/assets) by extensions ['ros']
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(src/assets) by extension 'ros'
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(src/assets) by extensions ['cmake', 'python']
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(src/assets) by extension 'cmake'
+[0.195s] colcon.colcon_core.package_identification Level 1 _identify(src/assets) by extension 'python'
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets) by extensions ['python_setup_py']
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets) by extension 'python_setup_py'
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/css) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/css) by extension 'ignore'
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/css) by extension 'ignore_ament_install'
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/css) by extensions ['colcon_pkg']
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/css) by extension 'colcon_pkg'
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/css) by extensions ['colcon_meta']
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/css) by extension 'colcon_meta'
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/css) by extensions ['ros']
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/css) by extension 'ros'
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/css) by extensions ['cmake', 'python']
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/css) by extension 'cmake'
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/css) by extension 'python'
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/css) by extensions ['python_setup_py']
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/css) by extension 'python_setup_py'
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/fonts) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/fonts) by extension 'ignore'
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/fonts) by extension 'ignore_ament_install'
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/fonts) by extensions ['colcon_pkg']
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/fonts) by extension 'colcon_pkg'
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/fonts) by extensions ['colcon_meta']
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/fonts) by extension 'colcon_meta'
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/fonts) by extensions ['ros']
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/fonts) by extension 'ros'
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/fonts) by extensions ['cmake', 'python']
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/fonts) by extension 'cmake'
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/fonts) by extension 'python'
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/fonts) by extensions ['python_setup_py']
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/fonts) by extension 'python_setup_py'
+[0.196s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img) by extension 'ignore'
+[0.197s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img) by extension 'ignore_ament_install'
+[0.197s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img) by extensions ['colcon_pkg']
+[0.197s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img) by extension 'colcon_pkg'
+[0.197s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img) by extensions ['colcon_meta']
+[0.197s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img) by extension 'colcon_meta'
+[0.197s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img) by extensions ['ros']
+[0.197s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img) by extension 'ros'
+[0.197s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img) by extensions ['cmake', 'python']
+[0.197s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img) by extension 'cmake'
+[0.197s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img) by extension 'python'
+[0.197s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img) by extensions ['python_setup_py']
+[0.197s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img) by extension 'python_setup_py'
+[0.197s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/brand) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/brand) by extension 'ignore'
+[0.197s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/brand) by extension 'ignore_ament_install'
+[0.197s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/brand) by extensions ['colcon_pkg']
+[0.197s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/brand) by extension 'colcon_pkg'
+[0.197s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/brand) by extensions ['colcon_meta']
+[0.197s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/brand) by extension 'colcon_meta'
+[0.197s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/brand) by extensions ['ros']
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/brand) by extension 'ros'
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/brand) by extensions ['cmake', 'python']
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/brand) by extension 'cmake'
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/brand) by extension 'python'
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/brand) by extensions ['python_setup_py']
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/brand) by extension 'python_setup_py'
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/icons) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/icons) by extension 'ignore'
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/icons) by extension 'ignore_ament_install'
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/icons) by extensions ['colcon_pkg']
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/icons) by extension 'colcon_pkg'
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/icons) by extensions ['colcon_meta']
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/icons) by extension 'colcon_meta'
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/icons) by extensions ['ros']
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/icons) by extension 'ros'
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/icons) by extensions ['cmake', 'python']
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/icons) by extension 'cmake'
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/icons) by extension 'python'
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/icons) by extensions ['python_setup_py']
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/icons) by extension 'python_setup_py'
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/icons/common) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/icons/common) by extension 'ignore'
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/icons/common) by extension 'ignore_ament_install'
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/icons/common) by extensions ['colcon_pkg']
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/icons/common) by extension 'colcon_pkg'
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/icons/common) by extensions ['colcon_meta']
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/icons/common) by extension 'colcon_meta'
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/icons/common) by extensions ['ros']
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/icons/common) by extension 'ros'
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/icons/common) by extensions ['cmake', 'python']
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/icons/common) by extension 'cmake'
+[0.198s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/icons/common) by extension 'python'
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/icons/common) by extensions ['python_setup_py']
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/icons/common) by extension 'python_setup_py'
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/theme) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/theme) by extension 'ignore'
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/theme) by extension 'ignore_ament_install'
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/theme) by extensions ['colcon_pkg']
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/theme) by extension 'colcon_pkg'
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/theme) by extensions ['colcon_meta']
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/theme) by extension 'colcon_meta'
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/theme) by extensions ['ros']
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/theme) by extension 'ros'
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/theme) by extensions ['cmake', 'python']
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/theme) by extension 'cmake'
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/theme) by extension 'python'
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/theme) by extensions ['python_setup_py']
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/img/theme) by extension 'python_setup_py'
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins) by extension 'ignore'
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins) by extension 'ignore_ament_install'
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins) by extensions ['colcon_pkg']
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins) by extension 'colcon_pkg'
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins) by extensions ['colcon_meta']
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins) by extension 'colcon_meta'
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins) by extensions ['ros']
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins) by extension 'ros'
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins) by extensions ['cmake', 'python']
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins) by extension 'cmake'
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins) by extension 'python'
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins) by extensions ['python_setup_py']
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins) by extension 'python_setup_py'
+[0.199s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo) by extension 'ignore'
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo) by extension 'ignore_ament_install'
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo) by extensions ['colcon_pkg']
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo) by extension 'colcon_pkg'
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo) by extensions ['colcon_meta']
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo) by extension 'colcon_meta'
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo) by extensions ['ros']
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo) by extension 'ros'
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo) by extensions ['cmake', 'python']
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo) by extension 'cmake'
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo) by extension 'python'
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo) by extensions ['python_setup_py']
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo) by extension 'python_setup_py'
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo/css) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo/css) by extension 'ignore'
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo/css) by extension 'ignore_ament_install'
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo/css) by extensions ['colcon_pkg']
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo/css) by extension 'colcon_pkg'
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo/css) by extensions ['colcon_meta']
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo/css) by extension 'colcon_meta'
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo/css) by extensions ['ros']
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo/css) by extension 'ros'
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo/css) by extensions ['cmake', 'python']
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo/css) by extension 'cmake'
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo/css) by extension 'python'
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo/css) by extensions ['python_setup_py']
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo/css) by extension 'python_setup_py'
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo/fonts) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo/fonts) by extension 'ignore'
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo/fonts) by extension 'ignore_ament_install'
+[0.200s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo/fonts) by extensions ['colcon_pkg']
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo/fonts) by extension 'colcon_pkg'
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo/fonts) by extensions ['colcon_meta']
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo/fonts) by extension 'colcon_meta'
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo/fonts) by extensions ['ros']
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo/fonts) by extension 'ros'
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo/fonts) by extensions ['cmake', 'python']
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo/fonts) by extension 'cmake'
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo/fonts) by extension 'python'
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo/fonts) by extensions ['python_setup_py']
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/plugins/nucleo/fonts) by extension 'python_setup_py'
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss) by extension 'ignore'
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss) by extension 'ignore_ament_install'
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss) by extensions ['colcon_pkg']
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss) by extension 'colcon_pkg'
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss) by extensions ['colcon_meta']
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss) by extension 'colcon_meta'
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss) by extensions ['ros']
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss) by extension 'ros'
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss) by extensions ['cmake', 'python']
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss) by extension 'cmake'
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss) by extension 'python'
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss) by extensions ['python_setup_py']
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss) by extension 'python_setup_py'
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard) by extension 'ignore'
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard) by extension 'ignore_ament_install'
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard) by extensions ['colcon_pkg']
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard) by extension 'colcon_pkg'
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard) by extensions ['colcon_meta']
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard) by extension 'colcon_meta'
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard) by extensions ['ros']
+[0.201s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard) by extension 'ros'
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard) by extensions ['cmake', 'python']
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard) by extension 'cmake'
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard) by extension 'python'
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard) by extensions ['python_setup_py']
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard) by extension 'python_setup_py'
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap) by extension 'ignore'
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap) by extension 'ignore_ament_install'
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap) by extensions ['colcon_pkg']
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap) by extension 'colcon_pkg'
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap) by extensions ['colcon_meta']
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap) by extension 'colcon_meta'
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap) by extensions ['ros']
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap) by extension 'ros'
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap) by extensions ['cmake', 'python']
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap) by extension 'cmake'
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap) by extension 'python'
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap) by extensions ['python_setup_py']
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap) by extension 'python_setup_py'
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap/mixins) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap/mixins) by extension 'ignore'
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap/mixins) by extension 'ignore_ament_install'
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap/mixins) by extensions ['colcon_pkg']
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap/mixins) by extension 'colcon_pkg'
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap/mixins) by extensions ['colcon_meta']
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap/mixins) by extension 'colcon_meta'
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap/mixins) by extensions ['ros']
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap/mixins) by extension 'ros'
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap/mixins) by extensions ['cmake', 'python']
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap/mixins) by extension 'cmake'
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap/mixins) by extension 'python'
+[0.202s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap/mixins) by extensions ['python_setup_py']
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap/mixins) by extension 'python_setup_py'
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap/utilities) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap/utilities) by extension 'ignore'
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap/utilities) by extension 'ignore_ament_install'
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap/utilities) by extensions ['colcon_pkg']
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap/utilities) by extension 'colcon_pkg'
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap/utilities) by extensions ['colcon_meta']
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap/utilities) by extension 'colcon_meta'
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap/utilities) by extensions ['ros']
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap/utilities) by extension 'ros'
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap/utilities) by extensions ['cmake', 'python']
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap/utilities) by extension 'cmake'
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap/utilities) by extension 'python'
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap/utilities) by extensions ['python_setup_py']
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/bootstrap/utilities) by extension 'python_setup_py'
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom) by extension 'ignore'
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom) by extension 'ignore_ament_install'
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom) by extensions ['colcon_pkg']
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom) by extension 'colcon_pkg'
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom) by extensions ['colcon_meta']
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom) by extension 'colcon_meta'
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom) by extensions ['ros']
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom) by extension 'ros'
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom) by extensions ['cmake', 'python']
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom) by extension 'cmake'
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom) by extension 'python'
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom) by extensions ['python_setup_py']
+[0.203s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom) by extension 'python_setup_py'
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/alerts) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/alerts) by extension 'ignore'
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/alerts) by extension 'ignore_ament_install'
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/alerts) by extensions ['colcon_pkg']
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/alerts) by extension 'colcon_pkg'
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/alerts) by extensions ['colcon_meta']
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/alerts) by extension 'colcon_meta'
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/alerts) by extensions ['ros']
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/alerts) by extension 'ros'
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/alerts) by extensions ['cmake', 'python']
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/alerts) by extension 'cmake'
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/alerts) by extension 'python'
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/alerts) by extensions ['python_setup_py']
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/alerts) by extension 'python_setup_py'
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/avatars) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/avatars) by extension 'ignore'
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/avatars) by extension 'ignore_ament_install'
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/avatars) by extensions ['colcon_pkg']
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/avatars) by extension 'colcon_pkg'
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/avatars) by extensions ['colcon_meta']
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/avatars) by extension 'colcon_meta'
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/avatars) by extensions ['ros']
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/avatars) by extension 'ros'
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/avatars) by extensions ['cmake', 'python']
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/avatars) by extension 'cmake'
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/avatars) by extension 'python'
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/avatars) by extensions ['python_setup_py']
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/avatars) by extension 'python_setup_py'
+[0.204s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/badges) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/badges) by extension 'ignore'
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/badges) by extension 'ignore_ament_install'
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/badges) by extensions ['colcon_pkg']
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/badges) by extension 'colcon_pkg'
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/badges) by extensions ['colcon_meta']
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/badges) by extension 'colcon_meta'
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/badges) by extensions ['ros']
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/badges) by extension 'ros'
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/badges) by extensions ['cmake', 'python']
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/badges) by extension 'cmake'
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/badges) by extension 'python'
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/badges) by extensions ['python_setup_py']
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/badges) by extension 'python_setup_py'
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/buttons) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/buttons) by extension 'ignore'
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/buttons) by extension 'ignore_ament_install'
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/buttons) by extensions ['colcon_pkg']
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/buttons) by extension 'colcon_pkg'
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/buttons) by extensions ['colcon_meta']
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/buttons) by extension 'colcon_meta'
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/buttons) by extensions ['ros']
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/buttons) by extension 'ros'
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/buttons) by extensions ['cmake', 'python']
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/buttons) by extension 'cmake'
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/buttons) by extension 'python'
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/buttons) by extensions ['python_setup_py']
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/buttons) by extension 'python_setup_py'
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/cards) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/cards) by extension 'ignore'
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/cards) by extension 'ignore_ament_install'
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/cards) by extensions ['colcon_pkg']
+[0.205s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/cards) by extension 'colcon_pkg'
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/cards) by extensions ['colcon_meta']
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/cards) by extension 'colcon_meta'
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/cards) by extensions ['ros']
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/cards) by extension 'ros'
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/cards) by extensions ['cmake', 'python']
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/cards) by extension 'cmake'
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/cards) by extension 'python'
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/cards) by extensions ['python_setup_py']
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/cards) by extension 'python_setup_py'
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/charts) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/charts) by extension 'ignore'
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/charts) by extension 'ignore_ament_install'
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/charts) by extensions ['colcon_pkg']
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/charts) by extension 'colcon_pkg'
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/charts) by extensions ['colcon_meta']
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/charts) by extension 'colcon_meta'
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/charts) by extensions ['ros']
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/charts) by extension 'ros'
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/charts) by extensions ['cmake', 'python']
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/charts) by extension 'cmake'
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/charts) by extension 'python'
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/charts) by extensions ['python_setup_py']
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/charts) by extension 'python_setup_py'
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/close) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/close) by extension 'ignore'
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/close) by extension 'ignore_ament_install'
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/close) by extensions ['colcon_pkg']
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/close) by extension 'colcon_pkg'
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/close) by extensions ['colcon_meta']
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/close) by extension 'colcon_meta'
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/close) by extensions ['ros']
+[0.206s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/close) by extension 'ros'
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/close) by extensions ['cmake', 'python']
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/close) by extension 'cmake'
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/close) by extension 'python'
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/close) by extensions ['python_setup_py']
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/close) by extension 'python_setup_py'
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/custom-forms) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/custom-forms) by extension 'ignore'
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/custom-forms) by extension 'ignore_ament_install'
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/custom-forms) by extensions ['colcon_pkg']
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/custom-forms) by extension 'colcon_pkg'
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/custom-forms) by extensions ['colcon_meta']
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/custom-forms) by extension 'colcon_meta'
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/custom-forms) by extensions ['ros']
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/custom-forms) by extension 'ros'
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/custom-forms) by extensions ['cmake', 'python']
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/custom-forms) by extension 'cmake'
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/custom-forms) by extension 'python'
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/custom-forms) by extensions ['python_setup_py']
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/custom-forms) by extension 'python_setup_py'
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/dropdowns) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/dropdowns) by extension 'ignore'
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/dropdowns) by extension 'ignore_ament_install'
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/dropdowns) by extensions ['colcon_pkg']
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/dropdowns) by extension 'colcon_pkg'
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/dropdowns) by extensions ['colcon_meta']
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/dropdowns) by extension 'colcon_meta'
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/dropdowns) by extensions ['ros']
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/dropdowns) by extension 'ros'
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/dropdowns) by extensions ['cmake', 'python']
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/dropdowns) by extension 'cmake'
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/dropdowns) by extension 'python'
+[0.207s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/dropdowns) by extensions ['python_setup_py']
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/dropdowns) by extension 'python_setup_py'
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/footers) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/footers) by extension 'ignore'
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/footers) by extension 'ignore_ament_install'
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/footers) by extensions ['colcon_pkg']
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/footers) by extension 'colcon_pkg'
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/footers) by extensions ['colcon_meta']
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/footers) by extension 'colcon_meta'
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/footers) by extensions ['ros']
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/footers) by extension 'ros'
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/footers) by extensions ['cmake', 'python']
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/footers) by extension 'cmake'
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/footers) by extension 'python'
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/footers) by extensions ['python_setup_py']
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/footers) by extension 'python_setup_py'
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/forms) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/forms) by extension 'ignore'
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/forms) by extension 'ignore_ament_install'
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/forms) by extensions ['colcon_pkg']
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/forms) by extension 'colcon_pkg'
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/forms) by extensions ['colcon_meta']
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/forms) by extension 'colcon_meta'
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/forms) by extensions ['ros']
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/forms) by extension 'ros'
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/forms) by extensions ['cmake', 'python']
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/forms) by extension 'cmake'
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/forms) by extension 'python'
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/forms) by extensions ['python_setup_py']
+[0.208s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/forms) by extension 'python_setup_py'
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/headers) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/headers) by extension 'ignore'
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/headers) by extension 'ignore_ament_install'
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/headers) by extensions ['colcon_pkg']
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/headers) by extension 'colcon_pkg'
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/headers) by extensions ['colcon_meta']
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/headers) by extension 'colcon_meta'
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/headers) by extensions ['ros']
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/headers) by extension 'ros'
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/headers) by extensions ['cmake', 'python']
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/headers) by extension 'cmake'
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/headers) by extension 'python'
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/headers) by extensions ['python_setup_py']
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/headers) by extension 'python_setup_py'
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/icons) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/icons) by extension 'ignore'
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/icons) by extension 'ignore_ament_install'
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/icons) by extensions ['colcon_pkg']
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/icons) by extension 'colcon_pkg'
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/icons) by extensions ['colcon_meta']
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/icons) by extension 'colcon_meta'
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/icons) by extensions ['ros']
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/icons) by extension 'ros'
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/icons) by extensions ['cmake', 'python']
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/icons) by extension 'cmake'
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/icons) by extension 'python'
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/icons) by extensions ['python_setup_py']
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/icons) by extension 'python_setup_py'
+[0.209s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/list-groups) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/list-groups) by extension 'ignore'
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/list-groups) by extension 'ignore_ament_install'
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/list-groups) by extensions ['colcon_pkg']
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/list-groups) by extension 'colcon_pkg'
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/list-groups) by extensions ['colcon_meta']
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/list-groups) by extension 'colcon_meta'
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/list-groups) by extensions ['ros']
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/list-groups) by extension 'ros'
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/list-groups) by extensions ['cmake', 'python']
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/list-groups) by extension 'cmake'
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/list-groups) by extension 'python'
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/list-groups) by extensions ['python_setup_py']
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/list-groups) by extension 'python_setup_py'
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/maps) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/maps) by extension 'ignore'
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/maps) by extension 'ignore_ament_install'
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/maps) by extensions ['colcon_pkg']
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/maps) by extension 'colcon_pkg'
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/maps) by extensions ['colcon_meta']
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/maps) by extension 'colcon_meta'
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/maps) by extensions ['ros']
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/maps) by extension 'ros'
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/maps) by extensions ['cmake', 'python']
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/maps) by extension 'cmake'
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/maps) by extension 'python'
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/maps) by extensions ['python_setup_py']
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/maps) by extension 'python_setup_py'
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/masks) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/masks) by extension 'ignore'
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/masks) by extension 'ignore_ament_install'
+[0.210s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/masks) by extensions ['colcon_pkg']
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/masks) by extension 'colcon_pkg'
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/masks) by extensions ['colcon_meta']
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/masks) by extension 'colcon_meta'
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/masks) by extensions ['ros']
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/masks) by extension 'ros'
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/masks) by extensions ['cmake', 'python']
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/masks) by extension 'cmake'
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/masks) by extension 'python'
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/masks) by extensions ['python_setup_py']
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/masks) by extension 'python_setup_py'
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/mixins) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/mixins) by extension 'ignore'
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/mixins) by extension 'ignore_ament_install'
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/mixins) by extensions ['colcon_pkg']
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/mixins) by extension 'colcon_pkg'
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/mixins) by extensions ['colcon_meta']
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/mixins) by extension 'colcon_meta'
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/mixins) by extensions ['ros']
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/mixins) by extension 'ros'
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/mixins) by extensions ['cmake', 'python']
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/mixins) by extension 'cmake'
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/mixins) by extension 'python'
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/mixins) by extensions ['python_setup_py']
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/mixins) by extension 'python_setup_py'
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/modals) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/modals) by extension 'ignore'
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/modals) by extension 'ignore_ament_install'
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/modals) by extensions ['colcon_pkg']
+[0.211s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/modals) by extension 'colcon_pkg'
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/modals) by extensions ['colcon_meta']
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/modals) by extension 'colcon_meta'
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/modals) by extensions ['ros']
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/modals) by extension 'ros'
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/modals) by extensions ['cmake', 'python']
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/modals) by extension 'cmake'
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/modals) by extension 'python'
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/modals) by extensions ['python_setup_py']
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/modals) by extension 'python_setup_py'
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/navbars) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/navbars) by extension 'ignore'
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/navbars) by extension 'ignore_ament_install'
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/navbars) by extensions ['colcon_pkg']
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/navbars) by extension 'colcon_pkg'
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/navbars) by extensions ['colcon_meta']
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/navbars) by extension 'colcon_meta'
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/navbars) by extensions ['ros']
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/navbars) by extension 'ros'
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/navbars) by extensions ['cmake', 'python']
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/navbars) by extension 'cmake'
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/navbars) by extension 'python'
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/navbars) by extensions ['python_setup_py']
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/navbars) by extension 'python_setup_py'
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/navs) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/navs) by extension 'ignore'
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/navs) by extension 'ignore_ament_install'
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/navs) by extensions ['colcon_pkg']
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/navs) by extension 'colcon_pkg'
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/navs) by extensions ['colcon_meta']
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/navs) by extension 'colcon_meta'
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/navs) by extensions ['ros']
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/navs) by extension 'ros'
+[0.212s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/navs) by extensions ['cmake', 'python']
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/navs) by extension 'cmake'
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/navs) by extension 'python'
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/navs) by extensions ['python_setup_py']
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/navs) by extension 'python_setup_py'
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/paginations) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/paginations) by extension 'ignore'
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/paginations) by extension 'ignore_ament_install'
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/paginations) by extensions ['colcon_pkg']
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/paginations) by extension 'colcon_pkg'
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/paginations) by extensions ['colcon_meta']
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/paginations) by extension 'colcon_meta'
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/paginations) by extensions ['ros']
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/paginations) by extension 'ros'
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/paginations) by extensions ['cmake', 'python']
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/paginations) by extension 'cmake'
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/paginations) by extension 'python'
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/paginations) by extensions ['python_setup_py']
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/paginations) by extension 'python_setup_py'
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/popovers) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/popovers) by extension 'ignore'
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/popovers) by extension 'ignore_ament_install'
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/popovers) by extensions ['colcon_pkg']
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/popovers) by extension 'colcon_pkg'
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/popovers) by extensions ['colcon_meta']
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/popovers) by extension 'colcon_meta'
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/popovers) by extensions ['ros']
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/popovers) by extension 'ros'
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/popovers) by extensions ['cmake', 'python']
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/popovers) by extension 'cmake'
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/popovers) by extension 'python'
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/popovers) by extensions ['python_setup_py']
+[0.213s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/popovers) by extension 'python_setup_py'
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/progresses) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/progresses) by extension 'ignore'
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/progresses) by extension 'ignore_ament_install'
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/progresses) by extensions ['colcon_pkg']
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/progresses) by extension 'colcon_pkg'
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/progresses) by extensions ['colcon_meta']
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/progresses) by extension 'colcon_meta'
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/progresses) by extensions ['ros']
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/progresses) by extension 'ros'
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/progresses) by extensions ['cmake', 'python']
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/progresses) by extension 'cmake'
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/progresses) by extension 'python'
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/progresses) by extensions ['python_setup_py']
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/progresses) by extension 'python_setup_py'
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/separators) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/separators) by extension 'ignore'
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/separators) by extension 'ignore_ament_install'
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/separators) by extensions ['colcon_pkg']
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/separators) by extension 'colcon_pkg'
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/separators) by extensions ['colcon_meta']
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/separators) by extension 'colcon_meta'
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/separators) by extensions ['ros']
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/separators) by extension 'ros'
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/separators) by extensions ['cmake', 'python']
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/separators) by extension 'cmake'
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/separators) by extension 'python'
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/separators) by extensions ['python_setup_py']
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/separators) by extension 'python_setup_py'
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/tables) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/tables) by extension 'ignore'
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/tables) by extension 'ignore_ament_install'
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/tables) by extensions ['colcon_pkg']
+[0.214s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/tables) by extension 'colcon_pkg'
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/tables) by extensions ['colcon_meta']
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/tables) by extension 'colcon_meta'
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/tables) by extensions ['ros']
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/tables) by extension 'ros'
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/tables) by extensions ['cmake', 'python']
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/tables) by extension 'cmake'
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/tables) by extension 'python'
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/tables) by extensions ['python_setup_py']
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/tables) by extension 'python_setup_py'
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/type) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/type) by extension 'ignore'
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/type) by extension 'ignore_ament_install'
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/type) by extensions ['colcon_pkg']
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/type) by extension 'colcon_pkg'
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/type) by extensions ['colcon_meta']
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/type) by extension 'colcon_meta'
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/type) by extensions ['ros']
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/type) by extension 'ros'
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/type) by extensions ['cmake', 'python']
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/type) by extension 'cmake'
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/type) by extension 'python'
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/type) by extensions ['python_setup_py']
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/type) by extension 'python_setup_py'
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/utilities) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/utilities) by extension 'ignore'
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/utilities) by extension 'ignore_ament_install'
+[0.215s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/utilities) by extensions ['colcon_pkg']
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/utilities) by extension 'colcon_pkg'
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/utilities) by extensions ['colcon_meta']
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/utilities) by extension 'colcon_meta'
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/utilities) by extensions ['ros']
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/utilities) by extension 'ros'
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/utilities) by extensions ['cmake', 'python']
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/utilities) by extension 'cmake'
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/utilities) by extension 'python'
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/utilities) by extensions ['python_setup_py']
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/utilities) by extension 'python_setup_py'
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/vendors) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/vendors) by extension 'ignore'
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/vendors) by extension 'ignore_ament_install'
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/vendors) by extensions ['colcon_pkg']
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/vendors) by extension 'colcon_pkg'
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/vendors) by extensions ['colcon_meta']
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/vendors) by extension 'colcon_meta'
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/vendors) by extensions ['ros']
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/vendors) by extension 'ros'
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/vendors) by extensions ['cmake', 'python']
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/vendors) by extension 'cmake'
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/vendors) by extension 'python'
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/vendors) by extensions ['python_setup_py']
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/custom/vendors) by extension 'python_setup_py'
+[0.216s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/docs) by extension 'ignore'
+[0.217s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/docs) by extension 'ignore_ament_install'
+[0.217s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/docs) by extensions ['colcon_pkg']
+[0.217s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/docs) by extension 'colcon_pkg'
+[0.217s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/docs) by extensions ['colcon_meta']
+[0.217s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/docs) by extension 'colcon_meta'
+[0.217s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/docs) by extensions ['ros']
+[0.217s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/docs) by extension 'ros'
+[0.217s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/docs) by extensions ['cmake', 'python']
+[0.217s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/docs) by extension 'cmake'
+[0.217s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/docs) by extension 'python'
+[0.217s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/docs) by extensions ['python_setup_py']
+[0.217s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/argon-dashboard/docs) by extension 'python_setup_py'
+[0.217s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react) by extension 'ignore'
+[0.217s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react) by extension 'ignore_ament_install'
+[0.217s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react) by extensions ['colcon_pkg']
+[0.217s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react) by extension 'colcon_pkg'
+[0.217s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react) by extensions ['colcon_meta']
+[0.217s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react) by extension 'colcon_meta'
+[0.217s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react) by extensions ['ros']
+[0.217s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react) by extension 'ros'
+[0.217s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react) by extensions ['cmake', 'python']
+[0.217s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react) by extension 'cmake'
+[0.218s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react) by extension 'python'
+[0.218s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react) by extensions ['python_setup_py']
+[0.218s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react) by extension 'python_setup_py'
+[0.218s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react/bootstrap) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react/bootstrap) by extension 'ignore'
+[0.218s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react/bootstrap) by extension 'ignore_ament_install'
+[0.218s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react/bootstrap) by extensions ['colcon_pkg']
+[0.218s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react/bootstrap) by extension 'colcon_pkg'
+[0.218s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react/bootstrap) by extensions ['colcon_meta']
+[0.218s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react/bootstrap) by extension 'colcon_meta'
+[0.218s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react/bootstrap) by extensions ['ros']
+[0.218s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react/bootstrap) by extension 'ros'
+[0.218s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react/bootstrap) by extensions ['cmake', 'python']
+[0.218s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react/bootstrap) by extension 'cmake'
+[0.218s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react/bootstrap) by extension 'python'
+[0.218s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react/bootstrap) by extensions ['python_setup_py']
+[0.218s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react/bootstrap) by extension 'python_setup_py'
+[0.218s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react/plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react/plugins) by extension 'ignore'
+[0.218s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react/plugins) by extension 'ignore_ament_install'
+[0.218s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react/plugins) by extensions ['colcon_pkg']
+[0.218s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react/plugins) by extension 'colcon_pkg'
+[0.219s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react/plugins) by extensions ['colcon_meta']
+[0.219s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react/plugins) by extension 'colcon_meta'
+[0.219s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react/plugins) by extensions ['ros']
+[0.219s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react/plugins) by extension 'ros'
+[0.219s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react/plugins) by extensions ['cmake', 'python']
+[0.219s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react/plugins) by extension 'cmake'
+[0.219s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react/plugins) by extension 'python'
+[0.219s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react/plugins) by extensions ['python_setup_py']
+[0.219s] colcon.colcon_core.package_identification Level 1 _identify(src/assets/scss/react/plugins) by extension 'python_setup_py'
+[0.219s] colcon.colcon_core.package_identification Level 1 _identify(src/components) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] colcon.colcon_core.package_identification Level 1 _identify(src/components) by extension 'ignore'
+[0.219s] colcon.colcon_core.package_identification Level 1 _identify(src/components) by extension 'ignore_ament_install'
+[0.219s] colcon.colcon_core.package_identification Level 1 _identify(src/components) by extensions ['colcon_pkg']
+[0.219s] colcon.colcon_core.package_identification Level 1 _identify(src/components) by extension 'colcon_pkg'
+[0.219s] colcon.colcon_core.package_identification Level 1 _identify(src/components) by extensions ['colcon_meta']
+[0.219s] colcon.colcon_core.package_identification Level 1 _identify(src/components) by extension 'colcon_meta'
+[0.219s] colcon.colcon_core.package_identification Level 1 _identify(src/components) by extensions ['ros']
+[0.219s] colcon.colcon_core.package_identification Level 1 _identify(src/components) by extension 'ros'
+[0.219s] colcon.colcon_core.package_identification Level 1 _identify(src/components) by extensions ['cmake', 'python']
+[0.219s] colcon.colcon_core.package_identification Level 1 _identify(src/components) by extension 'cmake'
+[0.219s] colcon.colcon_core.package_identification Level 1 _identify(src/components) by extension 'python'
+[0.219s] colcon.colcon_core.package_identification Level 1 _identify(src/components) by extensions ['python_setup_py']
+[0.219s] colcon.colcon_core.package_identification Level 1 _identify(src/components) by extension 'python_setup_py'
+[0.219s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Footers) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Footers) by extension 'ignore'
+[0.219s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Footers) by extension 'ignore_ament_install'
+[0.220s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Footers) by extensions ['colcon_pkg']
+[0.220s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Footers) by extension 'colcon_pkg'
+[0.220s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Footers) by extensions ['colcon_meta']
+[0.220s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Footers) by extension 'colcon_meta'
+[0.220s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Footers) by extensions ['ros']
+[0.220s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Footers) by extension 'ros'
+[0.220s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Footers) by extensions ['cmake', 'python']
+[0.220s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Footers) by extension 'cmake'
+[0.220s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Footers) by extension 'python'
+[0.220s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Footers) by extensions ['python_setup_py']
+[0.220s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Footers) by extension 'python_setup_py'
+[0.220s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Headers) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Headers) by extension 'ignore'
+[0.220s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Headers) by extension 'ignore_ament_install'
+[0.220s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Headers) by extensions ['colcon_pkg']
+[0.220s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Headers) by extension 'colcon_pkg'
+[0.220s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Headers) by extensions ['colcon_meta']
+[0.220s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Headers) by extension 'colcon_meta'
+[0.220s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Headers) by extensions ['ros']
+[0.220s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Headers) by extension 'ros'
+[0.220s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Headers) by extensions ['cmake', 'python']
+[0.220s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Headers) by extension 'cmake'
+[0.220s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Headers) by extension 'python'
+[0.220s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Headers) by extensions ['python_setup_py']
+[0.220s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Headers) by extension 'python_setup_py'
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Navbars) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Navbars) by extension 'ignore'
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Navbars) by extension 'ignore_ament_install'
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Navbars) by extensions ['colcon_pkg']
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Navbars) by extension 'colcon_pkg'
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Navbars) by extensions ['colcon_meta']
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Navbars) by extension 'colcon_meta'
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Navbars) by extensions ['ros']
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Navbars) by extension 'ros'
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Navbars) by extensions ['cmake', 'python']
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Navbars) by extension 'cmake'
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Navbars) by extension 'python'
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Navbars) by extensions ['python_setup_py']
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Navbars) by extension 'python_setup_py'
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/PrivateRoute) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/PrivateRoute) by extension 'ignore'
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/PrivateRoute) by extension 'ignore_ament_install'
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/PrivateRoute) by extensions ['colcon_pkg']
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/PrivateRoute) by extension 'colcon_pkg'
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/PrivateRoute) by extensions ['colcon_meta']
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/PrivateRoute) by extension 'colcon_meta'
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/PrivateRoute) by extensions ['ros']
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/PrivateRoute) by extension 'ros'
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/PrivateRoute) by extensions ['cmake', 'python']
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/PrivateRoute) by extension 'cmake'
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/PrivateRoute) by extension 'python'
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/PrivateRoute) by extensions ['python_setup_py']
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/PrivateRoute) by extension 'python_setup_py'
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Sidebar) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Sidebar) by extension 'ignore'
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Sidebar) by extension 'ignore_ament_install'
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Sidebar) by extensions ['colcon_pkg']
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Sidebar) by extension 'colcon_pkg'
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Sidebar) by extensions ['colcon_meta']
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Sidebar) by extension 'colcon_meta'
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Sidebar) by extensions ['ros']
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Sidebar) by extension 'ros'
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Sidebar) by extensions ['cmake', 'python']
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Sidebar) by extension 'cmake'
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Sidebar) by extension 'python'
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Sidebar) by extensions ['python_setup_py']
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/components/Sidebar) by extension 'python_setup_py'
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/layouts) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/layouts) by extension 'ignore'
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/layouts) by extension 'ignore_ament_install'
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/layouts) by extensions ['colcon_pkg']
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/layouts) by extension 'colcon_pkg'
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/layouts) by extensions ['colcon_meta']
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/layouts) by extension 'colcon_meta'
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/layouts) by extensions ['ros']
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/layouts) by extension 'ros'
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/layouts) by extensions ['cmake', 'python']
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/layouts) by extension 'cmake'
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/layouts) by extension 'python'
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/layouts) by extensions ['python_setup_py']
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/layouts) by extension 'python_setup_py'
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/network) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/network) by extension 'ignore'
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/network) by extension 'ignore_ament_install'
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/network) by extensions ['colcon_pkg']
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/network) by extension 'colcon_pkg'
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/network) by extensions ['colcon_meta']
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/network) by extension 'colcon_meta'
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/network) by extensions ['ros']
+[0.222s] colcon.colcon_core.package_identification Level 1 _identify(src/network) by extension 'ros'
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/network) by extensions ['cmake', 'python']
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/network) by extension 'cmake'
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/network) by extension 'python'
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/network) by extensions ['python_setup_py']
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/network) by extension 'python_setup_py'
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/variables) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/variables) by extension 'ignore'
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/variables) by extension 'ignore_ament_install'
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/variables) by extensions ['colcon_pkg']
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/variables) by extension 'colcon_pkg'
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/variables) by extensions ['colcon_meta']
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/variables) by extension 'colcon_meta'
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/variables) by extensions ['ros']
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/variables) by extension 'ros'
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/variables) by extensions ['cmake', 'python']
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/variables) by extension 'cmake'
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/variables) by extension 'python'
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/variables) by extensions ['python_setup_py']
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/variables) by extension 'python_setup_py'
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/views) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/views) by extension 'ignore'
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/views) by extension 'ignore_ament_install'
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/views) by extensions ['colcon_pkg']
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/views) by extension 'colcon_pkg'
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/views) by extensions ['colcon_meta']
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/views) by extension 'colcon_meta'
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/views) by extensions ['ros']
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/views) by extension 'ros'
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/views) by extensions ['cmake', 'python']
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/views) by extension 'cmake'
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/views) by extension 'python'
+[0.223s] colcon.colcon_core.package_identification Level 1 _identify(src/views) by extensions ['python_setup_py']
+[0.224s] colcon.colcon_core.package_identification Level 1 _identify(src/views) by extension 'python_setup_py'
+[0.224s] colcon.colcon_core.package_identification Level 1 _identify(src/views/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] colcon.colcon_core.package_identification Level 1 _identify(src/views/examples) by extension 'ignore'
+[0.224s] colcon.colcon_core.package_identification Level 1 _identify(src/views/examples) by extension 'ignore_ament_install'
+[0.224s] colcon.colcon_core.package_identification Level 1 _identify(src/views/examples) by extensions ['colcon_pkg']
+[0.224s] colcon.colcon_core.package_identification Level 1 _identify(src/views/examples) by extension 'colcon_pkg'
+[0.224s] colcon.colcon_core.package_identification Level 1 _identify(src/views/examples) by extensions ['colcon_meta']
+[0.224s] colcon.colcon_core.package_identification Level 1 _identify(src/views/examples) by extension 'colcon_meta'
+[0.224s] colcon.colcon_core.package_identification Level 1 _identify(src/views/examples) by extensions ['ros']
+[0.224s] colcon.colcon_core.package_identification Level 1 _identify(src/views/examples) by extension 'ros'
+[0.224s] colcon.colcon_core.package_identification Level 1 _identify(src/views/examples) by extensions ['cmake', 'python']
+[0.224s] colcon.colcon_core.package_identification Level 1 _identify(src/views/examples) by extension 'cmake'
+[0.224s] colcon.colcon_core.package_identification Level 1 _identify(src/views/examples) by extension 'python'
+[0.224s] colcon.colcon_core.package_identification Level 1 _identify(src/views/examples) by extensions ['python_setup_py']
+[0.224s] colcon.colcon_core.package_identification Level 1 _identify(src/views/examples) by extension 'python_setup_py'
+[0.224s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) using defaults
+[0.224s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) discover
+[0.224s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) using defaults
+[0.224s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) discover
+[0.224s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) using defaults
